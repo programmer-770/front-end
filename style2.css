@@ -1,0 +1,210 @@
+.heading{
+margin-top: 0px; margin-left: 80px; color:white}
+.image{
+width:200px;height:150px;margin: 20px 60px;border:5px solid white;
+box-shadow: inset 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);}
+.container{
+width: 100%;
+float:left;
+}
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+div.qwerty{
+width: 60%;
+float: left;
+margin-top: 65px;
+}
+div.tab {
+   overflow: hidden;
+   margin-left: 70px;
+  }
+/* Style the buttons inside the tab */
+div.tab button {
+    border-radius:7px;
+    background-color: #ccc;
+    float: left;
+    border-left: 1px solid #ccc;
+    margin-right: 3px;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 30px;
+    transition: 0.3s;
+    font-size: 17px;
+    color:grey;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: white;
+    color: black;
+}
+
+/* Style the tab content */
+.lefty {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+
+.section {
+    width: 35%;
+	float: left;
+	margin-left:20px;
+	margin-top:30px;
+}
+#c3 {
+    width: 20%;
+	float: left;
+	margin-top:30px;
+	margin-left:40px;
+    }
+.sidy{
+width: 40%;
+float:left;
+margin-top:20px;
+}
+.googly{
+width:100%;
+height:320px;
+background-color:#E8E8E8;
+margin-top: 420px;
+}
+.logic{
+width:405px;
+height:45px;
+background-color:  #86b300;
+margin-right:30px;
+}
+.lefty{
+width:70%;
+height:200px;
+box-shadow: 2px 5px 0px #A9A9A9	;
+margin-left: 50px;
+margin-top: 0px;
+border-top: 1px solid #A9A9A9;
+}
+
+.champ{
+width: 100%;
+height: 170px;
+background-color: #1a75ff; 
+margin-top: -9px;
+
+}
+
+.left{float: left;
+}
+.right{
+float: right;}
+ul {
+    list-style-type: none;
+    margin-top: -60px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #005266;
+	width:100%;
+	float: right;
+
+
+}
+
+li {
+    float: right;
+}
+
+.dishum {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+.vertical-menu {
+    margin-right:30px;
+	float: left;
+}
+
+.vertical-menu a {
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+	border-bottom: 1px solid #D3D3D3;
+	border-left: 1px solid #D3D3D3;
+	border-right: 1px solid #D3D3D3;
+	}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+h2{
+margin-top: 0px; color:white; font-weight:normal;
+}
+.dash{
+background-color: #e8e8e8;
+    margin-top: 20px;
+	margin-bottom: 0px;}
+.dasher{
+    display: block;
+    color: grey;
+    text-align: center;
+    text-decoration: none;
+	padding:16px;
+}	
+p.hand{
+margin-top: 30px; margin-bottom: 0px; color:white;}
+p.custom{
+margin-top: 0px; color:white;}
+h3.center{
+align: center}
+.input{
+font-size:15pt;background-color:#ffcc00;border:2px solid #997a00; border-radius: 15px; padding:10px ;box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); cursor: pointer; float: right; margin-top: -50px;margin-right: 200px}
+.click{
+font-size: 170%; color: #00CCFF;border-bottom: 2px solid #00CCFF; text-decoration:none; float:left ;margin-top: 25px;margin-left: 50px;}
+.full{
+color: white; font-size:110%; padding-left:20px; padding-top: 11px;}
+.small{
+font-size:75%; color: #A9A9A9}
+.green{
+font-size:75%; color: green
+}
+h4.blue{color: #005266}
+p.grey{color: #A9A9A9}
+h1.elegant{margin-top: 0px; margin-bottom: 0px;  color:white; font-size:250%}

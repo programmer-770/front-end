@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style1.css">
+<script src="script1.js"></script>
+</head>
+<body>
+<div class="row">
+ <div class="ball1">
+ <h1>Registration</h1>
+ <h2 id="hon">Member Information</h2>
+ <p>Enter your identifying information to access BITS, where you can <br>find coverage items, claims and more.</p>
+ </div>
+ <div class="ball2">
+ <br><br><br><br><br>
+ <span style="font-family: Brush Script MT;font-weight:normal;font-size:200%">Already Registered</span>
+&nbsp; <a href  = "signin.aspx"  style="color: #ff1493; font-size:125%;">Sign in</a><br><br>
+<a href = "not.aspx">Not a member? </a>
+<p>New Go365<sup>TM</sup> member? <a href = "signgo.aspx">Sign in to Go365</a> to get<br> started </p>
+</div>
+</div>
+<div class="row">
+ <div class="column1">
+ <p class="after-box"><span style="color: green; font-size:30px">*</span>All fields are required. </p>
+<ul style="border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; border-top-right-radius: 30px">
+  <li style="width: 30%;"><a href="#ph" class="wasd" id = "defaultOpen" style="border-bottom: none;" onclick="openTab(event, 'first')">FORM</a></li>
+  <li style="width: 30%;"><a href="#sw" class="wasd" style="border-bottom: none;" onclick="openTab(event, 'second')">TEXT</a></li>
+  <li style="width: 40%;"><a href="#nav" class="wasd" style="border-bottom: none;" onclick="openTab(event, 'third')">FORM+TEXT</a></li>
+</ul>
+<form action="/action_page.php">
+<div id="first" class="tabContent">
+<div class="leftContainer">
+<div class="leftContainer"><span style="color: green; font-size:30px">*</span><b>Member ID number</b><br>
+    <input type="text" name="midn" id="Memid" class="mem">
+	</div>
+	<div class="leftContainer" style="padding: 35px 35px 30px 47px;"><br>or
+	</div>
+	&nbsp;
+    <div id="leftyContainer"> <b>Medicare Claim Number</b><br>
+    <input type="text" name="mcn" id="medcn" class="mem"></div>
+	</div>
+    <br><br>
+	<div  style="clear:both;">
+	<span style="color: green; font-size:30px">*</span><b><label for="Date of Birth">Date of Birth</label></b><br>
+    <input type="date" name="dob" id="Date of Birth"></div> 
+    <br>
+	<div>
+    <span style="color: green; font-size:30px">*</span><b><label for="Zip Code">Zip Code</label></b><br>
+    <input type="text" name="zip" id="Zip Code" class="zip">
+    <br><br>
+	</div>
+	</div>
+	<div id="second" class="tabContent">
+	<p>Mycoted is a company dedicated to improving Creativity and Innovation for solving problems worldwide, with that in mind, we provide a central repository for Creativity and Innovation on the Internet as a summary of tools, techniques, mind exercises, puzzles, book reviews etc, that is open to all - and can be written by all.</p>
+	</div>
+	<div id="third" class="tabContent">
+	<div class="leftContainer"><span style="color: green; font-size:30px">*</span><b>Member ID number</b><br>
+    <input type="text" name="midn" id="Memid" class="mem2">
+	<p style="color:yellow; width:80%; margin-bottom:100px;">By the help of android startActivityForResult() method, we can get result from another activity.
+
+By the help of android startActivityForResult() method, we can send information from one activity to another and vice-versa. The android startActivityForResult method, requires a result from the second activity (activity to be invoked).
+
+In such case, we need to override the onActivityResult method that is invoked automatically when second activity returns result.</p>
+	</div>
+	</div>
+	<p class="new">By continuing, I agree to the BITS <a href = blah.aspx">Online Services and BITS Web <br>Confidentiality Agreement.</a><br><br>
+    <span><input type="submit" value=" &rarr; Continue "  style="font-size:18pt;color:white;background-color:#006600;border:2px solid #336600; border-radius: 15px; padding:10px ;box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); cursor: pointer;">
+    </form>&nbsp;
+	<a href = "cancel.php" style="margin-left: 50px;">Cancel</a></span><br><br>
+	<a href = "users.php">I'm having problems with your site, What should I do? </a>
+</div>
+ <div class="column2">
+ <br><br><br><br>
+<p style="font-family: Brush Script MT;font-weight:normal;font-size:200%">Need help finding your member ID?</p>
+<div class="slideshow-container">
+
+<div class="mySlides fade" id="open">
+  <div class="numbertext">1 / 3</div>
+  <img src="http://www.inspirational.quotesms.com/images/best-inspirational-quote.jpg" class="image">
+  <div class="text">QUOTE 1</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="http://www.keepinspiring.me/wp-content/uploads/2015/11/116.jpg" class="image">
+  <div class="text">QUOTE 2</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="http://cdn-media-2.lifehack.org/wp-content/files/2014/12/30quotes.jpg" class="image">
+  <div class="text">QUOTE 3</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+ </div>
+ </div>
+<script>
+	document.getElementById("defaultOpen").click();
+	document.getElementById("open").click();
+</script>
+ 
+ </body>
+</html>
